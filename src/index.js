@@ -1,0 +1,1 @@
+export { fauxcus } from './fauxcus';
