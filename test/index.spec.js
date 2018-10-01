@@ -1,4 +1,4 @@
-import { fauxcus } from '../src/index';
+import fauxcus from '../src/index';
 
 describe('fauxcus', () => {
   let anchor;

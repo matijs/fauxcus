@@ -1,6 +1,6 @@
 import { blurHandler } from './blur-handler';
 
-export function fauxcus(node) {
+export default function fauxcus(node) {
 
   if (!(node instanceof HTMLElement)) throw new Error('Valid node needed');
 
