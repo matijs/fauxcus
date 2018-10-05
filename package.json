@@ -1,6 +1,6 @@
 {
   "name": "fauxcus",
-  "version": "1.0.0-alpha-1",
+  "version": "1.0.0-alpha-2",
   "description": "Make in-page links accessible on mobile devices",
   "main": "lib/index.js",
   "scripts": {
