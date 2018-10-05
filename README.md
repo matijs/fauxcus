@@ -1,4 +1,4 @@
-# Fauxcus (fōˈkəs)
+# Fauxcus (fōˈkəs) [![Build status](https://travis-ci.com/matijs/fauxcus.svg?branch=master)](https://travis-ci.com/matijs/fauxcus)
 
 ## Description
 
