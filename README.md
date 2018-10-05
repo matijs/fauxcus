@@ -1,17 +1,20 @@
-# Fauxcus
+# Fauxcus (fōˈkəs)
 
 ## Description
 
-Fauxcus, pronounced focus, allows the focusing of all elements. This includes
-elements that are normally not focusable such as `main` or `div`. It does this
-by adding a `tabindex` attribute with a value of `-1`. In addition to this and
-event listener is bound that will remove the `tabindex` attribute when the
-element loses focus again.
+Fauxcus allows the focusing of all elements. This includes elements that are
+normally not focusable such as the `main` element or `div` elements. It does so
+by adding a `tabindex` attribute with a value of `-1`. In addition to adding
+the `tabindex` attribute an event listener is bound that will remove the
+`tabindex` attribute when the element loses focus.
 
-This is particularly useful for skip links and other in-page links that are
-currently (late 2018) [broken](http://axesslab.com/skip-links/) on mobile
-devices. It is an implementation of the focusing bit of [Anika Henke's
-solution](https://github.com/selfthinker/dokuwiki_template_writr/blob/master/js/skip-link-focus-fix.js)
+The functionality that fauxcus provides is particularly useful for skip links
+and other in-page links that are currently (as of late 2018)
+[broken](http://axesslab.com/skip-links/) on mobile devices. It is a vanilla
+JavaScript implementation of the focusing functionality of [Anika Henke's
+solution](https://github.com/selfthinker/dokuwiki_template_writr/blob/master/js/skip-link-focus-fix.js).
+Her solution also deals with hash changes and URLs that contain a fragment
+identifier when opened. fauxcus only handles setting focus.
 
 ## Installation
 
