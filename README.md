@@ -24,7 +24,19 @@ Install using npm or yarn.
 $ npm install --save fauxcus
 ```
 
-## Usage
+## API
+
+### `fauxcus(node)`
+
+Put focus on `node`.
+
+When `node` is already focusable, either because it is by default or it already
+has a `tabindex` attribute, it will only get focus.
+
+If it is not focusable it will be made focusable by adding a `tabindex="-1"`
+attribute and get focus. It will lose the `tabindex` attribute upon losing focus.
+
+## Example
 
 ```javascript
 import { fauxcus } from 'fauxcus';
