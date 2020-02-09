@@ -7,10 +7,10 @@
     "lib/**"
   ],
   "scripts": {
+    "prebuild": "rimraf lib",
     "build": "babel src --out-dir lib",
-    "clear": "rimraf lib",
-    "prepublishOnly": "npm-run-all clear test build",
-    "test": "jest"
+    "prepublishOnly": "run-p test build",
+    "test": "jest --ci --bail"
   },
   "repository": {
     "type": "git",
