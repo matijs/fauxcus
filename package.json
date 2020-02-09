@@ -9,6 +9,7 @@
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "babel src --out-dir lib",
+    "lint": "eslint './src'",
     "prepublishOnly": "run-p test build",
     "test": "jest --ci --bail"
   },
@@ -31,8 +32,12 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
     "rimraf": "^3.0.1"
   }
 }
