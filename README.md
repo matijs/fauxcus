@@ -1,4 +1,4 @@
-# Fauxcus (fōˈkəs) [![Build status](https://travis-ci.com/matijs/fauxcus.svg?branch=master)](https://travis-ci.com/matijs/fauxcus)
+# Fauxcus (fōˈkəs) ![build](https://github.com/matijs/fauxcus/workflows/build/badge.svg) [![Known Vulnerabilities](https://snyk.io/test/github/matijs/fauxcus/badge.svg?targetFile=package.json)](https://snyk.io/test/github/matijs/fauxcus?targetFile=package.json)
 
 ## Description
 
